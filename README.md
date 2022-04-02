@@ -4,7 +4,7 @@ CRISPR Guide RNA Designer
 ## Description
 This is a simple script which is based on public datasets to design guide RNAs for CRISPR research. 
 Example run for the gene 'SPIDR'
-'''
+```
     "guides": [
         {
             "azimuth": 0.5015460293192063,
@@ -32,4 +32,4 @@ Example run for the gene 'SPIDR'
             ],
             "target": "TTCCAACTCCTTTTTCTCTG"
         },
-'''
+```
