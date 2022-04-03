@@ -2,7 +2,7 @@ import requests
 import json
 url = "https://fhtei84br6.execute-api.us-east-1.amazonaws.com/v1/design"
 geneid=input('GeneID: ')
-payload = '{\"#\":null,\"genome\":\"homo_sapiens_gencode_26_primary\",\"nuclease\":\"cas9\",\"gene_id\":\"\",\"symbol\":\"'+geneid+'\"}'
+payload = '{"#":null,"genome":"homo_sapiens_gencode_26_primary","nuclease":"cas9","gene_id":"","symbol":"'+geneid+'"}'
 headers = {
   'Content-Type': 'text/plain'
 }
